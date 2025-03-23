@@ -1,0 +1,11 @@
+<odoo>
+    <data noupdate="1">
+        <record id="cron_obfuscate_account_data" model="ir.cron">
+            <field name="name">Obfuscate Account Move Data</field>
+            <field name="model_id" ref="account.model_account_move_line"/>
+            <field name="state">code</field>
+            <field name="code">env["account.move.line"].obfuscate_account_data()</field>
+            <field name="user_id" ref="base.user_root"/>
+        </record>
+    </data>
+</odoo>
