@@ -25,13 +25,16 @@ Các bước dưới đây sẽ hướng dẫn chi tiết cách clone repository
 ### 3. Cài Đặt Các Phụ Thuộc
    ```bash
    pip install -r requirement.txt
+
 ### 4. Cấu Hình Kết Nối Database
 1. Vào file anonymizer.py để chỉnh sửa theo cấu trúc sau:
+```bash
 DB_NAME = odoo
 DB_USER = odoo
 DB_PASSWORD = your_password_here
 DB_HOST = localhost
 DB_PORT = 5432
+
 ### 5. Chạy Tool
    ```bash
     python anonymizer.py
