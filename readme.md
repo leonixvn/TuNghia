@@ -15,32 +15,31 @@ Các bước dưới đây sẽ hướng dẫn chi tiết cách clone repository
 
 1. Mở Command Prompt (hoặc Terminal).
 2. Chạy lệnh sau để clone repository:
-   ```bash
-    git clone --branch anonymizer_script --single-branch https://github.com/leonixvn/TuNghia.git
-
+   ```git clone --branch anonymizer_script --single-branch https://github.com/leonixvn/TuNghia.git```
 ### 2. Yêu cầu
 1. Có python 3.8+
 2. Có PostgreSQL và data mẫu của oDoo
 
 ### 3. Vào thư mục
-   ```bash
+```
     cd TuNghia
-
+```
 ### 4. Cài Đặt Các Phụ Thuộc
-   ```bash
+   ```
    pip install -r requirement.txt
-
+```
 ### 5. Cấu Hình Kết Nối Database
 1. Vào file anonymizer.py để chỉnh sửa theo cấu trúc sau:
-```bash
+```
 DB_NAME = odoo
 DB_USER = odoo
 DB_PASSWORD = your_password_here
 DB_HOST = localhost
 DB_PORT = 5432
-
+```
 ### 6. Chạy Tool
-   ```bash
+   ```
     python anonymizer.py
+```
 Nếu file chạy thành công thì sẽ có thông báo Dữ liệu đã được ẩn danh thành công
 Nếu file chạy thất bại thì sẽ có thông báo Lỗi khi ẩn danh dữ liệu
