@@ -15,6 +15,7 @@ Các bước dưới đây sẽ hướng dẫn chi tiết cách clone repository
 
 1. Mở Command Prompt (hoặc Terminal).
 2. Chạy lệnh sau để clone repository:
+   ```bash
     git clone --branch anonymizer_script --single-branch https://github.com/leonixvn/TuNghia.git
 
 ### 2. Yêu cầu
