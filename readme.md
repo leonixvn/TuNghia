@@ -26,11 +26,11 @@ Các bước dưới đây sẽ hướng dẫn chi tiết cách clone repository
    ```bash
     cd TuNghia
 
-### 3. Cài Đặt Các Phụ Thuộc
+### 4. Cài Đặt Các Phụ Thuộc
    ```bash
    pip install -r requirement.txt
 
-### 4. Cấu Hình Kết Nối Database
+### 5. Cấu Hình Kết Nối Database
 1. Vào file anonymizer.py để chỉnh sửa theo cấu trúc sau:
 ```bash
 DB_NAME = odoo
@@ -39,7 +39,7 @@ DB_PASSWORD = your_password_here
 DB_HOST = localhost
 DB_PORT = 5432
 
-### 5. Chạy Tool
+### 6. Chạy Tool
    ```bash
     python anonymizer.py
 Nếu file chạy thành công thì sẽ có thông báo Dữ liệu đã được ẩn danh thành công
