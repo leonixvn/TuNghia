@@ -22,6 +22,10 @@ Các bước dưới đây sẽ hướng dẫn chi tiết cách clone repository
 1. Có python 3.8+
 2. Có PostgreSQL và data mẫu của oDoo
 
+### 3. Vào thư mục
+   ```bash
+    cd TuNghia
+
 ### 3. Cài Đặt Các Phụ Thuộc
    ```bash
    pip install -r requirement.txt
